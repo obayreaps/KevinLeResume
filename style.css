@@ -5,45 +5,67 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+/* Background color */
 body {
-    background-image: linear-gradient(to bottom right, #1D2671,#C33764);
+    background-color: #BFDCE5;
+    /* background-image: linear-gradient(to bottom right, #1D2671,#C33764); */
 }
 
+.home-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 350px 0px;
+}
+
+
+/* Home Page  */
+.homepage {
+    color: white;
+    font-size: 50px;
+}
+
+/* Top menu/links */
 .upper-menu {
     display: flex;
     justify-content: space-evenly;
 }
 
-.person-card {
+.link a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* Upper row */
+.upper-row {
+    display: flex;
+    gap: 100px;
+}
+.my-photo {
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.upper-description {
     display: flex;
     flex-direction: column;
-    width: 300px;
-    height: 700px;
-    margin: 50px;
-    padding: 50px 30px;
-    border-radius: 5px;
-    background-color: hsla(240, 14%, 25%, 0.5);
-    opacity: 0;
-    transform: translateY(20px);
-    animation: fadeInUp 0.6s ease-out forwards;
-    animation-delay: 0.3s;
 }
 
-@keyframes fadeInUp {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+.my-name {
+    color: white;
+    font-size: 72px;
 }
 
-.my-photo {
-    max-width: 250px;
-    max-height: 500px;
-    border-radius: 5px;
+.major-school {
+    font-size: 25px;
 }
 
-.person-description {
-    width: 250px;
-    display: flex;
-    flex-wrap: wrap;
+
+
+/* main section */
+.main-section {
+    padding: 50px 150px;
 }
+
