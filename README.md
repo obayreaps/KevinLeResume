@@ -6,7 +6,7 @@
     ```
 
 2. Open FitnessTracker.mlapp
-    By clicking on the file name 
+    by clicking on the file name 
     or 
     opening FitnessTrackerModel.m and running the following command
     ```matlab
