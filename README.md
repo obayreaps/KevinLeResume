@@ -24,6 +24,8 @@
   ```
 
 5. Navigate to workout summary, and select workouts from the Data/MixedActivity Folder
-Recommended: kevin_hike1.mat, kevin_longrun1.mat, kevin_shortrun1.mat
+   ```
+   Recommended: kevin_hike1.mat, kevin_longrun1.mat, kevin_shortrun1.mat
+   ```
 
 
