@@ -15,7 +15,7 @@
 
 3. Enter information onto the Daily Calorie Estimator tab
 
-4. Navigate to Food Tracker and enter name of foods and quantity you had. Examples below
+4. Navigate to Food Tracker and enter name of foods and quantity you had. Examples below:
       ```
         2 costco pizzas
         3 eggs
@@ -23,7 +23,7 @@
       ```
 
 5. Navigate to workout summary, and select workouts from the Data/MixedActivity Folder.
-       Recommended files to select
+       Recommended files to select:
         ```
         kevin_hike1.mat
         kevin_longrun1.mat
